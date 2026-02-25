@@ -12,6 +12,6 @@
 
     sequencia de conexões:
     1º home.js -> index.js -> app.js // Rotas;
-    2º home.js -> entervistasController.js -> entrevistasModel.js -> conexaoDB //Conexões e querys com DB;
+    2º home.js -> entervistasController.js -> entrevistasModel.js -> conexaoDB.js //Conexões e querys com DB;
 
 */
