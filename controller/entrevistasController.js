@@ -1,10 +1,12 @@
+import entrevistasModel from "../models/entrevistasModel.js";
+
 class EntrevistasController {
     get(){
-        return "Get dados";
+        return entrevistasModel.get();
     }
 
-    post(){
-
+    post(novaPessoa){
+        return entrevistasModel.post(novaPessoa);
     }
 
     put(){
@@ -16,4 +18,4 @@ class EntrevistasController {
     }
 }
 
-export default new EntrevistasController;
+export default new EntrevistasController();
