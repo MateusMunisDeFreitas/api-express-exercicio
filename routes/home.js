@@ -1,9 +1,11 @@
 import { Router } from "express";
+import entrevistasController from "../controller/entrevistasController.js";
 
 const router = Router();
 
 router.get("/home", (req, res) => {
-    res.send("Pagina Home");
+    const reposta = entrevistasController.get();
+    res.send("Pagina Home" + reposta);
 });
 
 router.post("/home", (req, res) => {
