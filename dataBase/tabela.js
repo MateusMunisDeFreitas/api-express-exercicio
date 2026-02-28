@@ -2,7 +2,7 @@
         init(conexao){
             this.conexao = conexao;
             this.criarTabelaEntrevistas();
-        }// --allow-unrelated-histories
+        }// --allow-unrelated-histories  // git 
 
         criarTabelaEntrevistas(){
             const sql = `
